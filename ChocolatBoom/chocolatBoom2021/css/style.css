@@ -54,7 +54,7 @@ h1,h2,h3 {
     background-color: #5a3c2f;
     margin: 10px 10px;
     padding: 10px 10px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 
@@ -71,6 +71,27 @@ aside {
     width: 30%;
     background-color: white;
 }
+
+
+@media (max-width: 960px)
+{
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+    section {
+        width: auto;
+    }
+    section img {
+        width: 80%;
+        height: 40%;
+    }
+    aside {
+        width: auto;
+        background-color: white;
+    }
+}
+
 
 @media (max-width: 576px)
 {
